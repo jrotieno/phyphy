@@ -228,7 +228,7 @@ Briefly:
 import phyphy
 
 ### Define a FEL Extractor, for example
-e = Extractor("/path/to/FEL.json") 
+e = phyphy.Extractor("/path/to/FEL.json") 
 e.extract_csv("fel.csv")  ## save to fel.csv
 
 ### tab-delimited output, as fel.tsv
